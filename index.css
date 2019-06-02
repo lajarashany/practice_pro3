@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+
+}
+div{
+
+}
+
+
+#myheader{
+	background-color: #00695c;
+	width: 100%;
+	left:0;
+	position: fixed;
+  	top: 0;
+  	padding:50px;
+
+}
+
+body{
+	background-color: #fafafa;
+}
+
+h1{
+	color: #ffffff;
+	font-style: italic;
+	font-family: monospace;
+	text-align: center;
+	font-size: 30px;
+}
+
+#mc1{
+	background-color: #eeff41; 
+  	color: black; 
+  	border: 2px solid blue;
+	padding: 25px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 10px;
+	font-family: monospace;
+	
+}
+
+#mc2{
+	background-color: #eeff41; 
+  	color: black; 
+  	border: 2px solid blue;
+	padding: 25px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 10px;
+	font-family: monospace;
+}
+
+.column1 {
+  background-color: #2BBBAD;
+  float: left;
+  width: 40%;
+  padding: 30px;
+  margin-top: 15em;
+  text-align: center;
+  border-radius: 15px;
+  float:left;
+ 
+  
+/*  margin-left: 4em;*/
+
+}
+.column2 {
+  background-color: #2BBBAD;
+  float: left;
+  width: 40%;
+  padding: 30px;
+  margin-top: 15em;
+  text-align: center;
+  border-radius: 15px;
+  float:right;
+
+ 
+  margin-left: 10px;
+/*  margin-right: 4em;*/
+
+
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  float: left;
+
+}
+
+#p1{
+	font-family: monospace;
+
+}
+
+#p2{
+	font-family: monospace;
+}
+
+
+.page-footer{
+	text-align: center;
+	padding: 2em;
+	clear: both;
+	background-color: #bdbdbd ;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+}
+
+.footer-copyright{
+	text-align: center;
+	clear: both;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	padding: 2em;
+
+
+
+}
+.container {
+  margin: auto;
+  max-width: 600px;
+
+}
+
+@media screen and (max-width:600px) {
+    .column1 .column2 {
+     width: 100%;
+    }
+
+
+
