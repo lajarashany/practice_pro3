@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+
+}
+
+#myheader{
+	background-color: #00695c;
+	width: 100%;
+	left:0;
+	position: fixed;
+  	top: 0;
+  	padding:50px;
+
+}
+
+h1{
+    color: #ffffff;
+    font-style: italic;
+    font-family: monospace;
+    text-align: center;
+    font-size: 30px;
+}
+
+body{
+	background-color: #fafafa;
+}
+
+
+
+
+
+
+
+
+
+
+
+.page-footer{
+	text-align: center;
+	padding: 2em;
+	clear: both;
+	background-color: #bdbdbd ;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+}
+
+.footer-copyright{
+	text-align: center;
+	clear: both;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	padding: 2em;
+
+
+
+}
+.container {
+  margin: auto;
+  max-width: 600px;
+
+}
+
+@media screen and (max-width:600px) {
+     {
+     width: 100%;
+    }
+
+
+
