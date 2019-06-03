@@ -4,12 +4,22 @@
 }
 
 #myheader{
-	background-color: #00695c;
+	background-color: #212121;
 	width: 100%;
 	left:0;
 	position: fixed;
   	top: 0;
   	padding:50px;
+
+}
+
+#RadiusHeader{
+    color: #ffffff;
+    font-size: 30px;
+    left: 0;
+    background-color: #ffb74d;
+    width: 120%;
+    text-align: center;
 
 }
 
@@ -21,17 +31,55 @@ h1{
     font-size: 30px;
 }
 
+
+
+label{
+    float:left;
+    width: 9em;
+    font-size: 18px;
+}
+
 body{
-	background-color: #fafafa;
+    position: fixed;
+    background-color: #ffffff;
+    color: #000000; 
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 12em;
+    margin-left: 20em;
+    margin-right:20em;
+    
+
+}
+#btnSend{
+    border: 2px solid blue;
+    padding: 1em;
+    border-radius: 15px;
+    margin-left: 5em;
+
+    
+}
+
+input{
+    margin-top: .5em;
+    display: block;
+    width: 280px;
+    padding: 10px;
+    border-radius: 9px;
+    border-width: 2px;
+    margin-bottom: .5em;
+    font-size: 18px;
 }
 
 
 
-
-
-
-
-
+fieldset{
+    border-color: transparent;
+ /*   background-color: #CCCCCC;*/
+    margin: auto;
+    width: 75%;
+}
 
 
 
