@@ -1,0 +1,137 @@
+/* style for my form */
+
+* {
+  box-sizing: border-box;
+
+}
+
+
+#ContactUS{
+    color: #ffffff;
+    font-size: 30px;
+    left: 0;
+    background-color: #80cbc4;
+    width: 120%;
+    text-align: center;
+
+}
+div{
+    padding-top: 5px;
+}
+
+label{
+    float:left;
+    width: 9em;
+    font-size: 18px;
+}
+
+body{
+    position: fixed;
+    background-color: #ffffff;
+    color: #000000; 
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 12em;
+    margin-left: 20em;
+    margin-right:20em;
+    
+
+}
+#btnSend{
+    border: 2px solid blue;
+    padding: 1em;
+    border-radius: 15px;
+    margin-left: 5em;
+
+    
+}
+/*
+img {
+    max-width: 60%;
+    animation-direction: normal;
+    animation-duration: 2s;
+
+}*/
+input{
+    margin-top: .5em;
+    display: block;
+    width: 280px;
+    padding: 10px;
+    border-radius: 9px;
+    border-width: 2px;
+    margin-bottom: .5em;
+    font-size: 18px;
+}
+
+/*legend{
+    padding: 1em;
+    border-radius: 2% 25% 2% 25%;
+    border-left: 30px;
+    
+}*/
+
+
+fieldset{
+    border-color: transparent;
+ /*   background-color: #CCCCCC;*/
+    margin: auto;
+    width: 75%;
+}
+
+
+
+
+
+
+
+
+#myheader{
+    background-color: #0277bd;
+    width: 100%;
+    left:0;
+    position: fixed;
+    top: 0;
+    padding:40px;
+
+}
+
+
+h1{
+    color: #ffffff;
+    font-style: italic;
+    font-family: monospace;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.page-footer{
+    text-align: center;
+    padding: 2em;
+    clear: both;
+    background-color: #bdbdbd ;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+.footer-copyright{
+    text-align: center;
+    clear: both;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    padding: 2em;
+
+}
+
+
+
+@media screen and (max-width:100px) {
+    body{
+     width: 100%;
+    }
+
