@@ -5,7 +5,7 @@ function SendContact(){
   var thyPassword = document.getElementById("inpassword");
 	
 	var msg = "";
-  var numbers = "12345";
+  var numbers = "12345678";
   
   if (thyName.value.length < 0){
     var msg = "Did you forget to input your name?";
@@ -22,6 +22,9 @@ function SendContact(){
 
     else{
     	var msg = "Thank you";
+      document.getElementById("ContactUS").innerHTML = "THANK YOU";
+      
+
     }
   
   return alert(msg);
